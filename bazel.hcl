@@ -12,11 +12,10 @@ on "unpack" {
   }
 
   run {
-    cmd = "sh"
+    cmd = "/bin/bash"
     args = [
         "-c",
-        "if [ -f tools/bazel ]; then alias bazel=tools/bazel; fi; exec \"$@\"",
-        "sh"
+        "if -f ${root}/tools/bazel; then alias bazel=tools/bazel; fi;"
     ]
   }
 }
