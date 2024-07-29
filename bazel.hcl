@@ -1,11 +1,23 @@
 description = "Bazel is an open-source build and test tool similar to Make, Maven, and Gradle."
 binaries = ["bazel"]
 source = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-${os}-${arch_}"
+env = {
+  "BAZEL_REAL": "${HERMIT_BIN}/bazel",
+}
 
 on "unpack" {
   rename {
     from = "${root}/bazel-${version}-${os}-${arch_}"
     to = "${root}/bazel"
+  }
+
+  run {
+    cmd = "sh"
+    args = [
+        "-c",
+        "if [ -f tools/bazel ]; then alias bazel=tools/bazel; fi; exec \"$@\"",
+        "sh"
+    ]
   }
 }
 
