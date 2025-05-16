@@ -12,7 +12,8 @@ on "unpack" {
 
 version "2.8.0" "2.9.0" "2.10.0" "2.10.1" "2.10.2" "2.10.3" "2.11.0" "2.11.1" "2.11.2"
         "2.11.3" "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.15.1" "2.15.2" "2.16.0" "2.16.2"
-        "2.17.0" "2.17.1" "2.18.0" "2.18.1" "2.19.0" "2.19.1" "2.20.0" "2.21.0" {
+        "2.17.0" "2.17.1" "2.18.0" "2.18.1" "2.19.0" "2.19.1" "2.20.0" "2.21.0" "2.22.0"
+        "2.23.0" "2.24.0" "2.25.1" "2.26.0" "2.26.1" "2.26.2" "2.26.3" {
   auto-version {
     github-release = "grpc-ecosystem/grpc-gateway"
   }
@@ -71,4 +72,20 @@ sha256sums = {
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.20.0/protoc-gen-openapiv2-v2.20.0-linux-x86_64": "34a47f85f9b009e01a366eb59a27542dca1177b6909727bc0d0ede2a5a1a74d2",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.21.0/protoc-gen-openapiv2-v2.21.0-darwin-x86_64": "4903651de013d031c33976730b2f91f82dbe116ed91af7dcc718656809ff8a9a",
   "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.21.0/protoc-gen-openapiv2-v2.21.0-linux-x86_64": "d17ed6eb57ba2df1fef60a60c2bbce1bd47a05152ce54666cb9333d5c35792b2",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.22.0/protoc-gen-openapiv2-v2.22.0-linux-x86_64": "72a6fc6a6d130189c549a6d88cbdef407d3ed1c95ab101ffb3d223d8b3778c90",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.22.0/protoc-gen-openapiv2-v2.22.0-darwin-x86_64": "14c95d1305a81822cd17ef750cfe71e8471728eba19068e9142a70a6cbaf5847",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.23.0/protoc-gen-openapiv2-v2.23.0-darwin-x86_64": "026effdd0134ac9984f7e2c6dd0ee5378fcd34d0b0727b1cd56ebed6e1cf239d",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.23.0/protoc-gen-openapiv2-v2.23.0-linux-x86_64": "1d0a39fecc4fed7f90eeee1206f80e7dd6f566c265e55735d2e427da5db567d1",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.24.0/protoc-gen-openapiv2-v2.24.0-darwin-x86_64": "c65b386fe11685c57e6b16115addde8aa81df55b76c6823fe0e37209d8d6c88c",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.24.0/protoc-gen-openapiv2-v2.24.0-linux-x86_64": "120876eff453ed475a59f1409bfd16b512ad93702ff947ac71a214c251a3d935",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.25.1/protoc-gen-openapiv2-v2.25.1-linux-x86_64": "704231bbe6b09cd14ba5741e70364f2cc0add1eacf22598eb594e0b59a288c11",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.25.1/protoc-gen-openapiv2-v2.25.1-darwin-x86_64": "edc99c529028129d9a2b3b5a3d9af93bf06ddf5755a66945bd9c6806557c1c08",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.0/protoc-gen-openapiv2-v2.26.0-linux-x86_64": "871f6ac0f25421d4eb68f25c6f2dd5f4641c5b3a329509c78c82c83327a1d98b",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.0/protoc-gen-openapiv2-v2.26.0-darwin-x86_64": "299f4f5c05d7931073dd7da0abd0cf57787500f89609662a5434065a804798d8",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.1/protoc-gen-openapiv2-v2.26.1-linux-x86_64": "2baef0f8ced838ba3b565c168b662377af4c092f14fb0d7345a6310b8878eda6",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.1/protoc-gen-openapiv2-v2.26.1-darwin-x86_64": "9ac84096f4a152ea60c2ae50787386c03c442e166330ef9b0e8adb57fbffd244",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.2/protoc-gen-openapiv2-v2.26.2-linux-x86_64": "4074849904e4b6c5314c1a1ff9632867f0b538daa6df19d93af715d911c51236",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.2/protoc-gen-openapiv2-v2.26.2-darwin-x86_64": "f09887c4d00517ee590890c2b0334032a7b1d6da07cf6b96e13df520abdee853",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.3/protoc-gen-openapiv2-v2.26.3-linux-x86_64": "a4eec19cfced95a71994c000f68b72038fba381a08266f0e9bb1931165a8aede",
+  "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v2.26.3/protoc-gen-openapiv2-v2.26.3-darwin-x86_64": "5c5afb23e819a33c942ad1c888d7913c4d766434e2db1b96a92931e5c2d6dc5a",
 }

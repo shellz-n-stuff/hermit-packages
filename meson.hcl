@@ -13,7 +13,8 @@ on "unpack" {
 
 version "0.61.3" "0.62.0" "0.61.4" "0.62.1" "0.62.2" "0.61.5" "0.63.0" "0.63.1"
         "0.63.2" "0.63.3" "0.64.0" "0.64.1" "1.0.0" "1.0.1" "1.1.0" "1.1.1" "1.2.0" "1.2.1"
-        "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" {
+        "1.2.2" "1.2.3" "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.5.2" "1.6.0"
+        "1.6.1" "1.7.0" "1.7.1" "1.7.2" "1.8.0" {
   auto-version {
     github-release = "mesonbuild/meson"
   }
@@ -47,4 +48,11 @@ sha256sums = {
   "https://github.com/mesonbuild/meson/releases/download/1.4.1/meson-1.4.1.tar.gz": "1b8aad738a5f6ae64294cc8eaba9a82988c1c420204484ac02ef782e5bba5f49",
   "https://github.com/mesonbuild/meson/releases/download/1.5.0/meson-1.5.0.tar.gz": "45d7b8653c1e5139df35b33be2dd5b2d040c5b2c6129f9a7c890d507e33312b8",
   "https://github.com/mesonbuild/meson/releases/download/1.5.1/meson-1.5.1.tar.gz": "567e533adf255de73a2de35049b99923caf872a455af9ce03e01077e0d384bed",
+  "https://github.com/mesonbuild/meson/releases/download/1.5.2/meson-1.5.2.tar.gz": "f955e09ab0d71ef180ae85df65991d58ed8430323de7d77a37e11c9ea630910b",
+  "https://github.com/mesonbuild/meson/releases/download/1.6.0/meson-1.6.0.tar.gz": "999b65f21c03541cf11365489c1fad22e2418bb0c3d50ca61139f2eec09d5496",
+  "https://github.com/mesonbuild/meson/releases/download/1.6.1/meson-1.6.1.tar.gz": "1eca49eb6c26d58bbee67fd3337d8ef557c0804e30a6d16bfdf269db997464de",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.0/meson-1.7.0.tar.gz": "08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.1/meson-1.7.1.tar.gz": "155780a5be87f6dd7f427ad8bcbf0f2b2c5f62ee5fdacca7caa9de8439a24b89",
+  "https://github.com/mesonbuild/meson/releases/download/1.7.2/meson-1.7.2.tar.gz": "4d40d63aa748a9c139cc41ab9bffe43edd113c5639d78bde81544ca955aea890",
+  "https://github.com/mesonbuild/meson/releases/download/1.8.0/meson-1.8.0.tar.gz": "0a9b23311271519bd03dca12d7d8b0eab582c3a2c5da433d465b6e519dc88e2f",
 }

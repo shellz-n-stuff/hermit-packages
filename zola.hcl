@@ -11,9 +11,15 @@ platform "linux" "amd64" {
   source = "https://github.com/getzola/zola/releases/download/v${version}/zola-v${version}-x86_64-unknown-linux-gnu.tar.gz"
 }
 
-version "0.18.0" "0.19.0" "0.19.1" {
+version "0.18.0" "0.19.0" "0.19.1" "0.19.2" {}
+
+version "0.20.0" {
   auto-version {
     github-release = "getzola/zola"
+  }
+
+  platform "linux" {
+    source = "https://github.com/getzola/zola/releases/download/v${version}/zola-v${version}-${xarch}-unknown-linux-gnu.tar.gz"
   }
 }
 
@@ -27,4 +33,11 @@ sha256sums = {
   "https://github.com/getzola/zola/releases/download/v0.19.1/zola-v0.19.1-x86_64-unknown-linux-gnu.tar.gz": "90b49041ccab8fbb6955914c41e72774771a6dcbd58936fb107aa8409cb44aa0",
   "https://github.com/getzola/zola/releases/download/v0.19.1/zola-v0.19.1-x86_64-apple-darwin.tar.gz": "fa7b14ab74dab6cd1f49948bb018a8f2c02c662144a25795c067dd482ac1fe7f",
   "https://github.com/getzola/zola/releases/download/v0.19.1/zola-v0.19.1-aarch64-apple-darwin.tar.gz": "e867e04eb9af37726b6e1a8f72224ef80c2d307286f700cea5f2c21f63f8ebd5",
+  "https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-unknown-linux-gnu.tar.gz": "0798e69b86c628ddcb264ebd86c8cc8dce7670b9049060bf94faa73f6857cd9c",
+  "https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-apple-darwin.tar.gz": "38194f1d424bb4303c190fec149d90134ab33dd2d329831309deb409bcf416f8",
+  "https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-aarch64-apple-darwin.tar.gz": "82c173381aced5edb28394c3202417e6dce31f0a5941ae58dd4e5e9969f5f375",
+  "https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz": "ca7ed5b33a739c5b5b35a0e207e5c3578a652cd12b61c675763b3ff34c322d08",
+  "https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-apple-darwin.tar.gz": "23f1d5e117c7a01aa1c452cd1ffd3da1af533cf74a93762d9e4e1459fb029646",
+  "https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-aarch64-apple-darwin.tar.gz": "6dd8a3c77baef359df00916709e954e415c5acc1fa99fcd754bb600627fb4935",
+  "https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-aarch64-unknown-linux-gnu.tar.gz": "91b428514d1c6b5674ed0e7ec244152b98c0a3eb6b63bb2c887e5966f185f7fa",
 }

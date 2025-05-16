@@ -16,7 +16,11 @@ version "2.7.2" "3.0.1" "3.1.0" "3.2.0" "3.3.0" "3.4.0" "3.5.0" "3.6.0" "3.7.0" 
         "4.0.0" "4.1.1" "4.1.2" "4.2.0" "4.2.3" "4.2.5" "4.3.0" "4.3.1" "4.3.4" "4.4.0" "4.5.1"
         "4.6.0" "4.7.0" "4.8.0" "4.8.1" "4.9.0" "4.10.1" "4.10.2" "4.11.0" "4.12.0" "4.12.1"
         "4.13.0" "4.14.0" "4.15.0" "4.16.0" "4.16.1" "4.17.0" "4.18.0" "4.19.0" "4.20.0"
-        "4.21.0" "4.21.1" "4.21.2" {
+        "4.21.0" "4.21.1" "4.21.2" "4.22.0" "4.23.0" "4.24.0" "4.25.0" "4.26.0" "4.27.0"
+        "4.28.0" "4.28.1" "4.28.2" "4.29.0" "4.29.1" "4.30.0" "4.31.0" "4.32.0" "4.32.1"
+        "4.33.0" "4.34.0" "4.34.3" "4.37.0" "4.38.1" "4.38.2" "4.39.0" "4.39.1" "4.40.0"
+        "4.41.0" "4.42.0" "4.43.0" "4.43.1" "4.43.2" "4.44.2" "4.44.3" "4.45.0" "4.45.1"
+        "4.46.1" "4.47.0" "4.48.0" "4.48.1" "4.48.2" "4.49.0" "4.49.1" "4.50.1" {
   auto-version {
     github-release = "tuist/tuist"
   }
@@ -120,4 +124,45 @@ sha256sums = {
   "https://github.com/tuist/tuist/releases/download/4.21.0/tuist.zip": "b58c3fb3103571826b9f56abd643e109f298be70b8a1a8ccd5406556bdc7b708",
   "https://github.com/tuist/tuist/releases/download/4.21.1/tuist.zip": "d6bb039b4e7ebc2a2a5245af8c1696f5cea2befb178f1a2be466a63463965dad",
   "https://github.com/tuist/tuist/releases/download/4.21.2/tuist.zip": "7c00de9e0d45de9b1071b84d81a4cb95010c807733676e065a2926db45e4fc88",
+  "https://github.com/tuist/tuist/releases/download/4.22.0/tuist.zip": "28d16c70a5522757214f386db06c60dc79de0d86b6ecb98d2e15775d9814f691",
+  "https://github.com/tuist/tuist/releases/download/4.23.0/tuist.zip": "27172a7228e082d977cbd11f2dc15acb360a2c8a479cc04501c15d8a3e53b0ad",
+  "https://github.com/tuist/tuist/releases/download/4.24.0/tuist.zip": "3e9ea8421cfe4bb1259124b7a4c0c563d43405ba42d16741cdae74e2c0cf538f",
+  "https://github.com/tuist/tuist/releases/download/4.25.0/tuist.zip": "b194e8d9263549a4a71efe82ebf06f8bb1955b7d0240c4876fcd8e8fec4e6344",
+  "https://github.com/tuist/tuist/releases/download/4.26.0/tuist.zip": "141f7f77a96e4c3537a0065cea5f27eaa026d897a05f21f5d7bdcc5b401d0b7a",
+  "https://github.com/tuist/tuist/releases/download/4.27.0/tuist.zip": "b96761836fabd2fd1793a77fde1a9109d3c71e47189d97f63438f2122c17131d",
+  "https://github.com/tuist/tuist/releases/download/4.28.0/tuist.zip": "a691898eedb82ff74a8ffa570458d6c62ce3e65a115242e4bb5393edeb46e1fd",
+  "https://github.com/tuist/tuist/releases/download/4.28.1/tuist.zip": "f906487923538832a627e20dfd08fbf2552730c5eb6c7d1bc396c3a0b45a162e",
+  "https://github.com/tuist/tuist/releases/download/4.28.2/tuist.zip": "42d66c862a2e965570d0d32e12882f545a4ce68d6d567112ff9e8ed7928615d2",
+  "https://github.com/tuist/tuist/releases/download/4.29.0/tuist.zip": "c44c075fd52c341a48ea5995a0ea56b529b2db38bf9b4452c73b3c90e3cba369",
+  "https://github.com/tuist/tuist/releases/download/4.29.1/tuist.zip": "ace5d6efec615d5c524d065fd42757f77ef4d5770a2109a8707720871ddadbf1",
+  "https://github.com/tuist/tuist/releases/download/4.30.0/tuist.zip": "b761881f5f7b6188ac8de62c9887775eec148fb6c8e3b982db281d353a300542",
+  "https://github.com/tuist/tuist/releases/download/4.31.0/tuist.zip": "9099e708d1fc998a2f6515e9c07b28ee725f54ec174e0515c511ad644dca0c4c",
+  "https://github.com/tuist/tuist/releases/download/4.32.0/tuist.zip": "943760da4c2db5519abfdeb942ec5b5ee8e07d0796305a37a27ce6367041b0f5",
+  "https://github.com/tuist/tuist/releases/download/4.32.1/tuist.zip": "315ce09596079c8503fa7c19e55e45f1dbb0ddb487dfdcddc07cc46224804bb1",
+  "https://github.com/tuist/tuist/releases/download/4.33.0/tuist.zip": "4b0dab1a80fc29f7e5624be69cc438e019dbd994682267c26f2583c082c075b2",
+  "https://github.com/tuist/tuist/releases/download/4.34.0/tuist.zip": "bfcd66af10fa243763ed177adda78a03991d8f45fe7eefa7ee156df4b6a028df",
+  "https://github.com/tuist/tuist/releases/download/4.34.3/tuist.zip": "dde96ebdcdc6a820122b98836d4cb84ddf96f10b15127edf51ae71048f6aa5e9",
+  "https://github.com/tuist/tuist/releases/download/4.37.0/tuist.zip": "7cf776562b102a9ff95d4643efec69ab43d6bee71c94d51d89722549a8ad3cd2",
+  "https://github.com/tuist/tuist/releases/download/4.38.1/tuist.zip": "19b148db8fb952c3e21b75aa2509a0a242733cbd3e63b346459d0fa9f7e5de57",
+  "https://github.com/tuist/tuist/releases/download/4.38.2/tuist.zip": "14af45d18de9d3834ea32d4c9e572f8a69bf2c603963e950f4febbf5234d3b30",
+  "https://github.com/tuist/tuist/releases/download/4.39.0/tuist.zip": "058070708354f4b8fa186e628b8e6ff018c7fff03cb717af5cd55cb8113b36f6",
+  "https://github.com/tuist/tuist/releases/download/4.39.1/tuist.zip": "d1f7c5a7795a19a0c4c4137277deba6d15126c962d494a9c752fb7707a286d99",
+  "https://github.com/tuist/tuist/releases/download/4.40.0/tuist.zip": "d383f5b5664098d386de8f3878a5aee0df517292559b60bd172aebbb0e381dc3",
+  "https://github.com/tuist/tuist/releases/download/4.41.0/tuist.zip": "dc540952946e6ee596d70eee4beb4ad275db39f8153b39aaf0abbb00c971a735",
+  "https://github.com/tuist/tuist/releases/download/4.42.0/tuist.zip": "d98f5e7bca1c4e955b705e221c33b7ad3dff4ea01263ec5d9e8260c918482a46",
+  "https://github.com/tuist/tuist/releases/download/4.43.0/tuist.zip": "696da7c820a8de2c587a8f4b4f71d253785e9258b4dc152445bead975ac98132",
+  "https://github.com/tuist/tuist/releases/download/4.43.1/tuist.zip": "ec9c9b0ae75d4722886c2b6887e699628a3137f7fd6e769750b402d71ed242ea",
+  "https://github.com/tuist/tuist/releases/download/4.43.2/tuist.zip": "9681584c15937f4f4d5bf4b41adf7abbc3f425dcc609fb7375edb26abebf469f",
+  "https://github.com/tuist/tuist/releases/download/4.44.2/tuist.zip": "20802c866ca2225f8042d0ecac6a86d32275ea2aae4d38835490d4d34e0e97ec",
+  "https://github.com/tuist/tuist/releases/download/4.44.3/tuist.zip": "345cd256e56ce02f6f3a90801fa38952522e7159de4097c8b980ee67aaf6ad12",
+  "https://github.com/tuist/tuist/releases/download/4.45.0/tuist.zip": "86c32a0bd9f1b74ba5c9b80effb9cb06cb433d8fd652bebbb6943b7aa72231c3",
+  "https://github.com/tuist/tuist/releases/download/4.45.1/tuist.zip": "53bc95f0dcf94d8b10ea9257f3696b9a0f89660aaaacec5e6f8946fc90cb96c0",
+  "https://github.com/tuist/tuist/releases/download/4.46.1/tuist.zip": "d40e96cba0c5e96bb9d547ae86191f5395755dea24fe727e4073cad05ab4017e",
+  "https://github.com/tuist/tuist/releases/download/4.47.0/tuist.zip": "17eb3bd35e3422973e658002db3c6f8ebfb1c69aca5f1aa278375f6c5fdabdea",
+  "https://github.com/tuist/tuist/releases/download/4.48.0/tuist.zip": "f96d0ed5ec4d6375aada2c02544aa396b25711d5a5668eafc171b6b79ebfa752",
+  "https://github.com/tuist/tuist/releases/download/4.48.1/tuist.zip": "45d4c3da231ababb66d9eba636bea7b34ac128f71fc2ad44c0b9c964c3e8a18d",
+  "https://github.com/tuist/tuist/releases/download/4.48.2/tuist.zip": "0f506c997429e84734fb9285e6f5c925dd1348339b98b73ca350398075c0fb52",
+  "https://github.com/tuist/tuist/releases/download/4.49.0/tuist.zip": "34abc2a4f6e44ba4672ea0d130b0a5e858bbafff4894cdfee6792cf82297a827",
+  "https://github.com/tuist/tuist/releases/download/4.49.1/tuist.zip": "b272630876a6dc2ecfb266a718663ac408e4c63b7a08af9fcb88e00ec01300e1",
+  "https://github.com/tuist/tuist/releases/download/4.50.1/tuist.zip": "d533d3eceac73cd818a4191ee6e87059591e807c2540cf79298ab085676201fa",
 }

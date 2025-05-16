@@ -14,7 +14,8 @@ platform "darwin" {
 
 version "1.57.0" "1.58.0" "1.58.1" "1.59.0" "1.59.1" "1.59.2" "1.60.0" "1.60.1"
         "1.61.0" "1.61.1" "1.62.0" "1.62.1" "1.62.2" "1.63.0" "1.63.1" "1.64.0" "1.64.1"
-        "1.64.2" "1.65.0" "1.65.1" "1.65.2" "1.66.0" "1.67.0" {
+        "1.64.2" "1.65.0" "1.65.1" "1.65.2" "1.66.0" "1.67.0" "1.68.0" "1.68.1" "1.68.2"
+        "1.69.0" "1.69.1" "1.69.2" {
   auto-version {
     github-release = "rclone/rclone"
   }
@@ -90,4 +91,51 @@ sha256sums = {
   "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-osx-amd64.zip": "1a1a3b080393b721ba5f38597305be2dbac3b654b43dfac3ebe4630b4e6406c3",
   "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-amd64.zip": "07c23d21a94d70113d949253478e13261c54d14d72023bb14d96a8da5f3e7722",
   "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-osx-arm64.zip": "4dc6142aea78bb86f1236fe38e570b715990503c09733418c0cd2300e45651e4",
+  "https://github.com/rclone/rclone/releases/download/v1.68.0/rclone-v1.68.0-osx-arm64.zip": "c037225f85a2fa7a78cc77a241de0a6a3d62dc6ea2b0a2fd668d50511244f559",
+  "https://github.com/rclone/rclone/releases/download/v1.68.0/rclone-v1.68.0-osx-amd64.zip": "3a7ac232883e1e90e9c2c72c327f6a73d4701c23b94f4dba4b09aed3ee5038fe",
+  "https://github.com/rclone/rclone/releases/download/v1.68.0/rclone-v1.68.0-linux-amd64.zip": "2462de3234dc581db6ed8353625926bfabdfa7286b37f99cd733a84eba70c17c",
+  "https://github.com/rclone/rclone/releases/download/v1.68.1/rclone-v1.68.1-osx-amd64.zip": "d81e091571bc040282dab39d0cdee6b3215774de389469cd850c9803d6191de3",
+  "https://github.com/rclone/rclone/releases/download/v1.68.1/rclone-v1.68.1-osx-arm64.zip": "38e7588e13c93ee710daa44bb798437eca7fd583d4e98d0bce6c685ff11f4152",
+  "https://github.com/rclone/rclone/releases/download/v1.68.1/rclone-v1.68.1-linux-amd64.zip": "34f34743b1831523cd2e0aff74447b717e2d62fe1b598e91703899e0c0689568",
+  "https://github.com/rclone/rclone/releases/download/v1.68.2/rclone-v1.68.2-osx-arm64.zip": "323f387b32bcf9ddfc3874f01879a0b2689dbd91309beb8c3a4410db04d0c41f",
+  "https://github.com/rclone/rclone/releases/download/v1.68.2/rclone-v1.68.2-linux-amd64.zip": "0e6fa18051e67fc600d803a2dcb10ddedb092247fc6eee61be97f64ec080a13c",
+  "https://github.com/rclone/rclone/releases/download/v1.68.2/rclone-v1.68.2-osx-amd64.zip": "cdc685e16abbf35b6f47c95b2a5b4ad73a73921ff6842e5f4136c8b461756188",
+  "https://github.com/rclone/rclone/releases/download/v1.69.0/rclone-v1.69.0-linux-amd64.zip": "813892bb54ebc5891664b85c9cfc0e05ee50d39e3d5bb1ddd6d53d0f93a64dc2",
+  "https://github.com/rclone/rclone/releases/download/v1.69.0/rclone-v1.69.0-osx-arm64.zip": "d8d22aca8f4af4c24ea01668a452d02888bef45e3a01c663cbb7d78bd1e21db2",
+  "https://github.com/rclone/rclone/releases/download/v1.69.0/rclone-v1.69.0-osx-amd64.zip": "88475be8666944d5161bd15605d483f1bb55d9a46220b9dcf317b26e01659009",
+  "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-osx-amd64.zip": "ebe1d5e13b0255605becfafbfa7c1809bc985272bcea0b342675c7e29c57629b",
+  "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-linux-amd64.zip": "231841f8d8029ae6cfca932b601b3b50d0e2c3c2cb9da3166293f1c3eae7d79c",
+  "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-osx-arm64.zip": "09b42295c30ba6b41a0d9c6741e4b5769de9ddecf5069f93c33f01bb46caa228",
+  "https://github.com/rclone/rclone/releases/download/v1.57.0/rclone-v1.57.0-linux-arm64.zip": "7ca4bec4cc5f4ba72c863976da33085689083a04b3ee1f7bd37e08a278ca474f",
+  "https://github.com/rclone/rclone/releases/download/v1.58.1/rclone-v1.58.1-linux-arm64.zip": "b1abf65d6e9817ce5e2be532edeeb45cbd9ad671e8325d9d145e4d3c3ad41715",
+  "https://github.com/rclone/rclone/releases/download/v1.60.0/rclone-v1.60.0-linux-arm64.zip": "86bfc150238405ea58c396e25766dee4b1e01caedbcfd32ed3fd74533e29d910",
+  "https://github.com/rclone/rclone/releases/download/v1.61.0/rclone-v1.61.0-linux-arm64.zip": "2bae86030b8915d8278720c4d3fe1ea3aa9f414575f38d0a66ecce3906cb6d2d",
+  "https://github.com/rclone/rclone/releases/download/v1.62.0/rclone-v1.62.0-linux-arm64.zip": "b71ddababf3cb07dcf58059d117c12cbf501987bb9435811bd5380a2617324bd",
+  "https://github.com/rclone/rclone/releases/download/v1.62.1/rclone-v1.62.1-linux-arm64.zip": "9847ecb1315ea779736dc3fbf00edeb3a9c42613200bd538092c4b0987d90f35",
+  "https://github.com/rclone/rclone/releases/download/v1.63.0/rclone-v1.63.0-linux-arm64.zip": "31c80fc12c2b391726f2a026981e0ce53bf6e68e55e4288f2b2662445d667ef5",
+  "https://github.com/rclone/rclone/releases/download/v1.64.2/rclone-v1.64.2-linux-arm64.zip": "f79ba243876f4949ebc917025c9c97c71297aefb3fb0ebad1aa1d0a9b1f54e58",
+  "https://github.com/rclone/rclone/releases/download/v1.65.0/rclone-v1.65.0-linux-arm64.zip": "d9aebc560abab311a8fe955f4e01952d542e033c368751f892dfa69f504b1eab",
+  "https://github.com/rclone/rclone/releases/download/v1.69.0/rclone-v1.69.0-linux-arm64.zip": "82e4c24ee0cdbdfb93356e66cf14875ae4063f9923d2678e7d686119e98d75fe",
+  "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-linux-arm64.zip": "a03de8f700fcda7a1aef6b568f88d44218b698fb4e1637596c024d341bb24124",
+  "https://github.com/rclone/rclone/releases/download/v1.58.0/rclone-v1.58.0-linux-arm64.zip": "28db376098fd00a050c065ffbbfc5e4d878cea412ce4b3dbc3c45c5c96dfee4f",
+  "https://github.com/rclone/rclone/releases/download/v1.59.0/rclone-v1.59.0-linux-arm64.zip": "c95ebf48bcef81e9ee296a803ca77244d111e35a55db9680c78b407ed99bb054",
+  "https://github.com/rclone/rclone/releases/download/v1.59.1/rclone-v1.59.1-linux-arm64.zip": "4b237151154d322c14c5075688d9553c99b5076db50eaa114cf04e302d07b4a7",
+  "https://github.com/rclone/rclone/releases/download/v1.59.2/rclone-v1.59.2-linux-arm64.zip": "19c515af1a70491e5a451f62fdfe41573face748e6d6ccd7cd61732fd1a076d5",
+  "https://github.com/rclone/rclone/releases/download/v1.62.2/rclone-v1.62.2-linux-arm64.zip": "e921f0ac3edb45ea8f1c6b8110ed0be263aaedfb6a5ee98968d5836d3f1aadfc",
+  "https://github.com/rclone/rclone/releases/download/v1.63.1/rclone-v1.63.1-linux-arm64.zip": "eab46bfb4e6567cd42bc14502cfd207582ed611746fa51a03542c8df619cf8f8",
+  "https://github.com/rclone/rclone/releases/download/v1.64.1/rclone-v1.64.1-linux-arm64.zip": "1622c597292ef12023346c95182323df859bce8d97582a00b0f96c7740abf5dd",
+  "https://github.com/rclone/rclone/releases/download/v1.65.1/rclone-v1.65.1-linux-arm64.zip": "84dcc12153f8b7d66923070bf81d5c8f5dbc300baf8c37d7ab41f79d60358ab5",
+  "https://github.com/rclone/rclone/releases/download/v1.65.2/rclone-v1.65.2-linux-arm64.zip": "71938906831a2fbab00a0519cb8a1f6aaa31425d528df130e60ca371f0dd45ab",
+  "https://github.com/rclone/rclone/releases/download/v1.66.0/rclone-v1.66.0-linux-arm64.zip": "c50a3ab93082f21788f9244393b19f2426edeeb896eec2e3e05ffb2e8727e075",
+  "https://github.com/rclone/rclone/releases/download/v1.68.2/rclone-v1.68.2-linux-arm64.zip": "c6e9d4cf9c88b279f6ad80cd5675daebc068e404890fa7e191412c1bc7a4ac5f",
+  "https://github.com/rclone/rclone/releases/download/v1.60.1/rclone-v1.60.1-linux-arm64.zip": "34cb5687aff755ad7a3d1069b3cb0f5dd0b5b592b4d539ecd6c6a82599131ec7",
+  "https://github.com/rclone/rclone/releases/download/v1.61.1/rclone-v1.61.1-linux-arm64.zip": "fff35786bf9ee9320037db69e239df83768b8f756bae2343253ba6512e70d86c",
+  "https://github.com/rclone/rclone/releases/download/v1.64.0/rclone-v1.64.0-linux-arm64.zip": "b5a6cb3aef4fd1a2165fb8c21b1b1705f3cb754a202adc81931b47cd39c64749",
+  "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-arm64.zip": "2b44981a1a7d1f432c53c0f2f0b6bcdd410f6491c47dc55428fdac0b85c763f1",
+  "https://github.com/rclone/rclone/releases/download/v1.68.0/rclone-v1.68.0-linux-arm64.zip": "1ff887245f07ce722b9245c9aa984a841b6ba47d719842b1ada6be85e08695dc",
+  "https://github.com/rclone/rclone/releases/download/v1.68.1/rclone-v1.68.1-linux-arm64.zip": "bd8b4e0923239f80d3a25fe37bea09050038fa8fdbadacd44b8cef2a3944777d",
+  "https://github.com/rclone/rclone/releases/download/v1.69.2/rclone-v1.69.2-linux-amd64.zip": "14aaed7163df57894c96f8aca94757f19065f9cb3cb8a84ff9c33234271e1d69",
+  "https://github.com/rclone/rclone/releases/download/v1.69.2/rclone-v1.69.2-linux-arm64.zip": "ae719c9fb1cc90ebebfc85570310307a72fd9d77f26ea089893b64fa6f856f3d",
+  "https://github.com/rclone/rclone/releases/download/v1.69.2/rclone-v1.69.2-osx-arm64.zip": "826b0fcded05779cf2be1bafebc4382758d2bc6ca869841a9939ec4c2490375e",
+  "https://github.com/rclone/rclone/releases/download/v1.69.2/rclone-v1.69.2-osx-amd64.zip": "0a9a107ba911bf6bd3c61ad5160a379ac7c81a1b63498e12efcccb4676c65361",
 }

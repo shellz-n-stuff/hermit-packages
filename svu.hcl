@@ -2,7 +2,8 @@ description = "Semantic Version Util is a tool to manage semantic versions at ea
 test = "svu --version"
 binaries = ["svu"]
 
-version "1.9.0" "1.10.1" "1.10.2" "1.11.0" "1.12.0" "2.0.1" "2.1.0" {
+version "1.9.0" "1.10.1" "1.10.2" "1.11.0" "1.12.0" "2.0.1" "2.1.0" "2.1.1" "2.2.0"
+        "3.0.0" "3.1.0" "3.2.2" "3.2.3" {
   source = "https://github.com/caarlos0/svu/releases/download/v${version}/svu_${version}_${os}_${arch}.tar.gz"
 
   platform "darwin" {
@@ -36,4 +37,30 @@ sha256sums = {
   "https://github.com/caarlos0/svu/releases/download/v2.0.1/svu_2.0.1_darwin_all.tar.gz": "d92058eee3437710bfe13d7d9be559f191cde254e36602a91bab3ce236e4184f",
   "https://github.com/caarlos0/svu/releases/download/v2.1.0/svu_2.1.0_linux_amd64.tar.gz": "d5f1f92e3c0885567be44c85bcc978a8859405d7df5c4859217227bdec5df775",
   "https://github.com/caarlos0/svu/releases/download/v2.1.0/svu_2.1.0_darwin_all.tar.gz": "c472b9ebce558f4a2275ac4e116a63e38245dbab35c9dd1e19a8dafe465e6c91",
+  "https://github.com/caarlos0/svu/releases/download/v2.1.1/svu_2.1.1_darwin_all.tar.gz": "c77b7f7b5a6267c3838f36b70b9e974228d9ca1a43322f9a4ddfddf001458b92",
+  "https://github.com/caarlos0/svu/releases/download/v2.1.1/svu_2.1.1_linux_amd64.tar.gz": "5da10d8fb1a0bb27a18504d6ad7d7ec9935db0cf49f0f71534563885c464ccfd",
+  "https://github.com/caarlos0/svu/releases/download/v2.2.0/svu_2.2.0_linux_amd64.tar.gz": "55bd4579323ec589c1e96d0242295e231c526abb1ae8726945c60385510d96b5",
+  "https://github.com/caarlos0/svu/releases/download/v2.2.0/svu_2.2.0_darwin_all.tar.gz": "c8e5511b57a5ea1f9eed6d0430f27ad67b8438e1459b9915217dae96772df11e",
+  "https://github.com/caarlos0/svu/releases/download/v3.0.0/svu_3.0.0_linux_amd64.tar.gz": "44eb2f3bbda854e715c992237be3e87e7d05c08b25be5d8d1379a52c0116c4ec",
+  "https://github.com/caarlos0/svu/releases/download/v3.0.0/svu_3.0.0_darwin_all.tar.gz": "8ec9971a66e8cb66f4fedd3448584fd49f03e8b0d63d9e1abb81225e7e5ba672",
+  "https://github.com/caarlos0/svu/releases/download/v3.1.0/svu_3.1.0_linux_amd64.tar.gz": "c4d63b67062cc6fb0bddbecc0a86dac96f87db7763be4b09de90a2f9489a5a7c",
+  "https://github.com/caarlos0/svu/releases/download/v3.1.0/svu_3.1.0_darwin_all.tar.gz": "3e92f494b106eeea7cd655e336d9eef47669728d2953fd8e271817c5d661d9db",
+  "https://github.com/caarlos0/svu/releases/download/v1.8.0/svu_1.8.0_linux_arm64.tar.gz": "048be8ca7c0edc8ad9b666c849323a3b6d821a3ab5174aad381f77db4cde061d",
+  "https://github.com/caarlos0/svu/releases/download/v1.9.0/svu_1.9.0_linux_arm64.tar.gz": "10e71d5fb4864babf76d5decbab3e42c2656cbc0dd029763d9684acb7e065409",
+  "https://github.com/caarlos0/svu/releases/download/v1.10.1/svu_1.10.1_linux_arm64.tar.gz": "9e753486bc77abf95d7e53d58736b71006f49dddd24c132ad19c9262d00f849f",
+  "https://github.com/caarlos0/svu/releases/download/v1.10.2/svu_1.10.2_linux_arm64.tar.gz": "1fe9724cc7dbadc357aecf6c30b7480f942111850280b6fcc7729bf1c895c5a7",
+  "https://github.com/caarlos0/svu/releases/download/v1.11.0/svu_1.11.0_linux_arm64.tar.gz": "379e34041576b4ec49969784e084f26003c4748a083f0cb553bfe1543e196865",
+  "https://github.com/caarlos0/svu/releases/download/v1.12.0/svu_1.12.0_linux_arm64.tar.gz": "2c659cfaf85672d2c6673362bd18d6461e49c409cd6e3e31fbe807de0e8036be",
+  "https://github.com/caarlos0/svu/releases/download/v2.0.1/svu_2.0.1_linux_arm64.tar.gz": "4ba4b500cf307b2f5431ef35ae32912f28934082af7acf2bce0712769a35fb64",
+  "https://github.com/caarlos0/svu/releases/download/v2.1.1/svu_2.1.1_linux_arm64.tar.gz": "94af2c36adc2b446e295ddc7ae10945ace9435b59de651728cfe0f71930c2a77",
+  "https://github.com/caarlos0/svu/releases/download/v2.2.0/svu_2.2.0_linux_arm64.tar.gz": "bade78d00016e7ac4b28e8981d24e486ea48720c2e477c093457bcd0285b15ad",
+  "https://github.com/caarlos0/svu/releases/download/v3.0.0/svu_3.0.0_linux_arm64.tar.gz": "3ca292496eeaa56ea9ef5d32bbdbc7f0607626aaf00e9c59fc89acaa744ec212",
+  "https://github.com/caarlos0/svu/releases/download/v3.1.0/svu_3.1.0_linux_arm64.tar.gz": "9bc786b15e02158a50c219371e40a3e8e73b6bf2d0364f05b7a0adc9530d79ac",
+  "https://github.com/caarlos0/svu/releases/download/v2.1.0/svu_2.1.0_linux_arm64.tar.gz": "386dbb29e58ee7e6dd67c4e043fbae4c46828c791596fa318f23c49416cadb27",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_darwin_all.tar.gz": "68f23764049839e00b229d909c8026acc1241cea0600213840b42ee762d1225a",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_linux_arm64.tar.gz": "615c64453789db511b969ec36d5202d975dd4a075719990a6cc11daa80b21078",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.2/svu_3.2.2_linux_amd64.tar.gz": "3887a0a95e7438226501590cf325289e97129dc3e2c9713950d76508f8acfbde",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_linux_arm64.tar.gz": "25489d476893908c79c168b241d0c1cecbb8e749556bb4b54adf3222488aa72b",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_darwin_all.tar.gz": "3e62d42a0eae1a6d7da28ccccff1757958cbb72fd42b0d52a772475b845c9446",
+  "https://github.com/caarlos0/svu/releases/download/v3.2.3/svu_3.2.3_linux_amd64.tar.gz": "2509db2b9a5d97a212efb8e242e5782a1a62459ac516b3663c525db6b8474c02",
 }

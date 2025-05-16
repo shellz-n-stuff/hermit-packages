@@ -7,21 +7,10 @@ on "unpack" {
   }
 }
 
-platform "darwin" "amd64" {
-  source = "https://github.com/synfinatic/aws-sso-cli/releases/download/v${version}/aws-sso-${version}-${os}-${arch}"
-}
-
-platform "darwin" "arm64" {
-  source = "https://github.com/synfinatic/aws-sso-cli/releases/download/v${version}/aws-sso-${version}-${os}-${arch}"
-}
-
-platform "linux" "amd64" {
-  source = "https://github.com/synfinatic/aws-sso-cli/releases/download/v${version}/aws-sso-${version}-${os}-${arch}"
-}
-
+source = "https://github.com/synfinatic/aws-sso-cli/releases/download/v${version}/aws-sso-${version}-${os}-${arch}"
 description = "A powerful tool for using AWS Identity Center for the CLI and web console."
 
-version "1.14.2" "1.14.3" "1.15.0" "1.15.1" "1.16.0" "1.16.1" "1.17.0" {
+version "1.14.2" "1.14.3" "1.15.0" "1.15.1" "1.16.0" "1.16.1" "1.17.0" "2.0.0" {
   auto-version {
     github-release = "synfinatic/aws-sso-cli"
   }
@@ -49,4 +38,15 @@ sha256sums = {
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.17.0/aws-sso-1.17.0-darwin-arm64": "387f28edb6fd191b439a2be402352d62c83af46dcb5fcbdf4a444a4f16ddc24a",
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.17.0/aws-sso-1.17.0-linux-amd64": "eca87828aef9b9aa0a30c5c25a996c4f6be58d84bc21a3e0408d471803f755ce",
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.17.0/aws-sso-1.17.0-darwin-amd64": "38e1250bcdfb95085b9f21960bc5f6e4e198d6e657fefa3f2905e92d85fb93b5",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.14.2/aws-sso-1.14.2-linux-arm64": "353da9ba9476ee5cf56f00803b091390e52bbdffc2575c3c32efa7c9df06dad6",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.14.3/aws-sso-1.14.3-linux-arm64": "1ff43bad89605c5084700bda7cebbb71d6d0f4c98b41685a76a4fdc3c694b7f4",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.15.0/aws-sso-1.15.0-linux-arm64": "97e8a20950acc8b417a3abb525c4f86d110fa33de756da470c1100bcc385ea58",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.15.1/aws-sso-1.15.1-linux-arm64": "1cb5087729ba4d54f93c1e86a338e3fe87756be2b98b35fe32602636d13985f0",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.16.0/aws-sso-1.16.0-linux-arm64": "317aa20599cc28eb734c33e899b29edfc5fa1e40e503569a38684ccdf2c37f50",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.16.1/aws-sso-1.16.1-linux-arm64": "f908fd0e07f1fa75168e1b04439780dba6c20922bcbee07e68b38db898cf41c1",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v1.17.0/aws-sso-1.17.0-linux-arm64": "0431d13f42304a9203a5fda581865e17cb3762fdae20c832d3be955afc99caf0",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.0.0/aws-sso-2.0.0-linux-arm64": "619da2eca344882f04d979f007f726cb0067bf26444a309fb5adcae62813574a",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.0.0/aws-sso-2.0.0-darwin-arm64": "c4d7f5aaf477b89e4b76ba89ffd3e7e96dd15fad12ece7e437510f7624ca6439",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.0.0/aws-sso-2.0.0-linux-amd64": "837bac10a43365b15c5e3cec5535bf0024d59065d99f2ba4de2e74d84ccc8be2",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.0.0/aws-sso-2.0.0-darwin-amd64": "46b221709fc47c0fc3d646f25149b8a27c522299d092d13b8853a24cbb54ef83",
 }
